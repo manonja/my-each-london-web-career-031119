@@ -4,4 +4,5 @@ def my_each(array)
     counter += 1 
     puts "#{counter}"
   end
+  yield
 end
